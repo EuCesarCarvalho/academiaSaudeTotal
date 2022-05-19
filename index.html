@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Total</title>
+    <style>
+        body {
+            background-image: url("img/academiafundo.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .caixa {
+            padding: 20px;
+            justify-content: center;
+            width: auto;
+            display: flex;
+        }
+        
+        .titulologin {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: rgb(111, 148, 240);
+            padding: 10px;
+            box-shadow: 0 5px 5px 0;
+        }
+        
+        .formulario {
+            background-color: rgb(124, 157, 241);
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            opacity: 0.8;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: black;
+        }
+        
+        .campo {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+        }
+        
+        .botao:hover {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="caixa">
+        <div class="login">
+            <h3 class="titulologin">Acesso Com Seu Login</h3>
+            <form class="formulario" method="post" action="">
+                <input class="campo" type="text" name="email" placeholder="Digite Seu E-mail" required>
+                <input class="campo" type="password" name="senha" placeholder="Digite Sua Senha" required>
+                <input class="campo botao" type="submit" name="" id="" value="Acessar">
+                <a href="">
+                    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';">ESQUECI A SENHA</p>
+                </a>
+            </form>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
